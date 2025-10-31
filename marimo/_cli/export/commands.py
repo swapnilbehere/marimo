@@ -585,6 +585,7 @@ def html_wasm(
     out_dir = output
     filename = "index.html"
     ignore_index_html = False
+    ignore_index_html = True
     # If ends with .html, get the directory
     if output.suffix == ".html":
         out_dir = output.parent
